@@ -1,7 +1,7 @@
 var Big1;
 var Big2;
 
-function large(Arr){
+function FindSeccondBiggestNumber(Arr){
     if (Arr.length == 0 || Arr.length == 1)
         return "none";
 
@@ -31,4 +31,4 @@ function large(Arr){
 
 var Arr = [1, 3, 4, 5, 0, 2];
 
-console.log(large(Arr));
+console.log(FindSeccondBiggestNumber(Arr));
